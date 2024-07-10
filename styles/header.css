@@ -1,0 +1,134 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height:57px ;
+  position: fixed;
+  background-color: white;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+.left-section{
+  display: flex;
+  align-items: center;
+}
+.middle-section{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding-left: 70px;
+  justify-content: center;
+}
+.right-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  margin-left: 70px;
+}
+.hamburger-menu{
+  width: 24px;
+  margin:0 25px 0 25px ;
+}
+.youtube-logo{
+  width: 90px;
+}
+.search-bar{
+  height: 40px;
+  border-radius: 2px;
+  border: solid rgb(213, 213, 213) 1px;
+  flex: 1;
+  width: 20px;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.05);
+  max-width: 400px;
+  color: black;
+  font-size: 17px;
+  padding-left: 10px;
+}
+.search-bar:focus{
+  outline-style: none  ;
+}
+
+.search-bar::placeholder{
+  padding-left: 10px;
+  font-size: 15px;
+  color: rgb(154, 152, 152);
+}
+.search, .voice-search{
+  height: 40px;
+  border: solid rgb(213, 213, 213) 1px;
+  margin: -1px;
+  width: 60px;
+  background-color: #f7f7f7;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search .tooltip, .voice-search .tooltip{
+  position: absolute;
+  background-color: rgb(163, 160, 160);
+  color: white;
+  font-family: roboto,arial,sans-serif;
+  padding: 5px;
+  border-radius: 2px;
+  bottom: -30px;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.search:hover .tooltip,.voice-search:hover .tooltip{
+  opacity: 1;
+}
+.voice-search{
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  background-color: white;
+  border: none;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+}
+
+.search-icon{
+  width: 24px;
+}
+.voice-search-icon{
+  width: 24px;
+}
+.upload-icon{
+  width: 24px;
+}
+.apps{
+  width: 24px;
+  margin-left: 20px;
+}
+.notifications{
+  width: 24px;
+  margin-left: 20px;
+}
+.notifications-number{
+  height: 24px;
+  position: relative;
+}
+.number{
+  position: absolute;
+  background-color: rgb(185, 4, 4);
+  font-size: 11px;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 10px;
+  top: -5px;
+  right: -3px;
+}
+.mychannel{
+  width: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 17.5px;
+  object-fit: cover;
+  
+}

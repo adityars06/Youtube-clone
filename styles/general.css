@@ -1,0 +1,19 @@
+*,*::before,::after{
+  box-sizing: border-box;
+  font-family: roboto,arial,sans-serif;
+}
+html{
+  font-family:roboto,arial,sans-serif;
+
+}
+body{
+  padding-top:75px ;
+  padding-left:85px ;
+  padding-right:20px ;
+  background-color: rgb(248 , 248, 248);
+}
+p{
+  margin: 0;
+  padding: 0;
+  
+}
